@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ejerciciotecnico.Vista.MainActivity">
+
+    <item android:id="@+id/Favoritos" android:title="Favoritos"></item>
+
+    <item android:id="@+id/buscar"
+        android:title="Buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+
+</menu>
